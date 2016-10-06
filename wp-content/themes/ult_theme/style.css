@@ -1,0 +1,281 @@
+
+/*
+Theme Name: ult_theme
+Theme URI: http://ultimateschoolsonline.com
+Author: Bamidele Muyiwa
+Author URI: http://frontpage-ng.com
+Description: A hand wired theme 
+Version: 1.0
+Text Domain: twentytfifteen
+*/
+
+/*Default link styles*/
+a:link{
+    color: orangered;
+    text-decoration: none;
+}
+
+a:visited{
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #333;
+    text-decoration: underline;
+
+}
+
+a:active{
+    color: #333;
+}
+     
+        body.page{
+    
+    
+    font-family: 'Old Standard TT', serif;
+    
+     background: url('img/artist.jpg');
+  background-attachment: fixed;
+    /*background-repeat: repeat;*/
+    background-size: cover;
+     
+    color: peru;
+    font-size: 0.9em;
+      
+}
+h2{
+   font-family: Alegreya, sans-serif;
+}
+body.home{
+      font-family: 'alegreya', sans-serif;
+      font-family: 'lato', serif;
+       /*background: url('img/grads_large.jpg');
+         background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+     
+}
+.intro{
+    color: #fff;
+}
+.intro .span8{
+   background: url('img/opaque_black.png'); 
+   background-repeat: repeat;
+}
+
+.nav{
+    font-family: Alegreya, sans-serif;
+    font-size: 1.0em;
+}
+
+
+.top{
+     background: #2b2b2b;
+     background: goldenrod;
+     background-repeat: repeat;
+     height: 80px;
+     padding-bottom: 3px
+}
+.banner{
+    
+    height: 450px;
+    margin-bottom: 40px;
+   
+} 
+.four{
+    min-height: 200px;
+   
+    margin-bottom: 20px;
+}
+.four img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.four h2{
+    text-align: center;
+    font-size: 1.2em;
+}
+.four p{
+    text-align: center;
+}
+.feed{
+    background: #000;
+    height: 300px;
+    margin-top: 25px;
+   
+}
+.widgets{
+    min-height: 350px;
+
+}
+.container.mid{
+    min-height: 450px;
+    background: #E9F5F9;
+}
+.container.home.mid{
+    background: none;
+}
+.l{
+   min-height: 350px;
+   background: #fff; 
+   color: #333;
+   
+}
+.debug{
+    /*min-height: 280px;
+    background: palegoldenrod;*/
+}
+
+.footer{
+background: #f8fafb;
+background: #333;
+height: 60px;
+}
+.logo img{
+    position: relative;
+    top: 10px;
+}
+ul.nav li{
+  display: inline;
+  padding: 9px;
+}
+.navbar-inner{
+    background: none;
+    border: none;
+}
+ul.nav{
+      border-bottom: none
+}
+ul.nav li a:link{
+  color: #fff;
+  text-decoration: none;  
+
+}
+ul.nav li a:visited{
+   color: #fff;
+}
+ul.nav li a:hover{
+    color: #fff; 
+    
+}
+ul.nav li a:active{
+    color: orange;
+}
+ul.nav li.current_page_item a{
+   
+ border-bottom:  1px dashed #99c;
+
+
+}
+.workarea{
+    background: url('../img/orange.png');
+    min-height: 450px;
+}
+.socials ul li{
+    display: inline;
+    padding: 9px;
+}
+
+p{
+  padding: 10px  
+}
+.nav{
+   margin-top: 25px
+}
+.space{
+  
+    height: 320px;
+}
+.lspace{
+    height: 15px;
+}
+.navbar,.navbar .navbar-inner{
+    background: none;
+    box-shadow: none;
+}
+.l h2, h2.widgettitle{
+    color: brown;
+        font-family: Alegreya, sans-serif;
+    font-size: 2.0em;
+    padding: 9px;
+}
+.wpcf7-textarea{
+    width: 70%;
+}
+li.widget{
+    list-style: none;
+}
+
+p.ktext{
+    color: #fff;
+}
+h2.rounded{
+    padding-left: 15px;
+    color: snow;
+}
+ul li.ktweet{
+    text-decoration: none;
+    list-style: circle;
+}
+
+ul.ql li{
+    list-style: none;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-family: lato, sans-serif;
+}
+h3{
+    font-family: Alegreya, sans-serif;
+    padding-left: 10px
+}
+@media (max-width: 480px) {
+.nav{
+    background: url('img/opaque_black.png');
+ }
+}
+
+#wpgyan-widget{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.topbar h2{
+    display: none;
+}
+
+
+/**right_b**/
+
+.right_b ul li{
+    list-style: none;
+    margin-bottom: 6px;
+    
+}
+.right_b ul li.twitbox{
+    background: #000;
+    min-height: 200px;
+    
+}
+.right_b li a:link{
+    color:#fff;
+    background: goldenrod;
+    padding: 6px;
+    display: block;
+    height: 25px;
+    
+}
+.right_b ul li a:visited{
+    color:#fff;
+    display: block;
+}
+.right_b ul li a:hover{
+    color:#fff;
+    background: #99c;
+    text-decoration: none;
+   
+}
+.right_b ul li a:active{
+    color:orange;   
+}
